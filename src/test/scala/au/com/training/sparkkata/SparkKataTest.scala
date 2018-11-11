@@ -28,7 +28,7 @@ class SparkKataTest extends FlatSpec with Matchers {
     * PERSONS with column AGE (int), FIRST_NAME (String), LAST_NAME (String), ID (Long)
     * ADDRESSES with columns ID (Long), ADDRESS (String)
     *
-    * We want to recover only the persons who have ONE address and who are more than 32 years old
+    * We want to recover only the persons who have one or more address(es) and who are strictly more than 32 years old
     *
     * This must be done using TDD
     */
